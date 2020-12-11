@@ -35,3 +35,23 @@ header h1 {
 .banner h2 span {
   font-size: 1.3em;
 }
+nav {
+  padding: 20px;
+  background-color: #f4f4f4;
+}
+nav ul {
+  white-space: nowrap;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+nav li {
+  width: 25%;
+  display: inline-block;
+}
+nav li a {
+  text-decoration: none;
+  color: #4b4b4b
+}
+nav li a.join {
+  color: #f63232;
+}

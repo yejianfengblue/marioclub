@@ -38,6 +38,8 @@ header h1 {
 nav {
   padding: 20px;
   background-color: #f4f4f4;
+  position: sticky;
+  top: 150px;
 }
 nav ul {
   white-space: nowrap;

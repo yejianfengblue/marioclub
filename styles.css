@@ -8,6 +8,13 @@ header {
   background-color: #f63232;
   text-align: center;
 }
+header h1 {
+  color: white;
+  border: solid white 8px;
+  padding: 6px 12px;
+  display: inline-block;
+  border-radius: 36px;
+}
 .banner {
   position: relative;
 }

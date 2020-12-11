@@ -62,3 +62,10 @@ nav li a {
 nav li a.join {
   color: #f63232;
 }
+main {
+  max-width: 100%;
+  width: 1200px;
+  margin: 80px auto;
+  padding: 0 40px;
+  box-sizing: border-box;
+}

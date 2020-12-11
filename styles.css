@@ -106,3 +106,9 @@ article p {
   border-radius: 28px;
   border: 4px solid white;
 }
+footer {
+  color: white;
+  background-color: #f63232;
+  padding: 10px;
+  text-align: center;
+}

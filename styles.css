@@ -134,3 +134,12 @@ nav li a:hover {
 .join form input:invalid {
   border: 4px solid red;
 }
+
+article p::first-line {
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+section.join p::first-letter {
+  font-size: 1.5em;
+}

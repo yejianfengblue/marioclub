@@ -90,7 +90,7 @@ article p {
 .images li img {
   max-width: 100%;
 }
-section .join {
+section.join {
   color: #4b4b4b;
   background-color: #f4f4f4;
   text-align: center;

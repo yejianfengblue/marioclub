@@ -143,3 +143,39 @@ article p::first-line {
 section.join p::first-letter {
   font-size: 1.5em;
 }
+
+/* responsive styles */
+@media screen and (max-width: 1080px) {
+
+  .banner .welcome h2 {
+    font-size: 20px;
+  }
+  nav li {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 720px) {
+
+  .banner .welcome {
+    position: relative;
+    text-align: center;
+  }
+  .banner .welcome br {
+    display: none;
+  }
+  main .images li {
+    display: block;
+    width: 100%;
+    margin: 20px auto;
+  }
+  header {
+    position: relative;
+  }
+  nav {
+    top: 0;
+  }
+  nav li {
+    display: block;
+  }
+}

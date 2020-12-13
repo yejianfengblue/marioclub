@@ -164,4 +164,9 @@ section.join p::first-letter {
   .banner .welcome br {
     display: none;
   }
+  main .images li {
+    display: block;
+    width: 100%;
+    margin: 20px auto;
+  }
 }
